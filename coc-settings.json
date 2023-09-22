@@ -1,6 +1,6 @@
 {
-	"signature.target":"echo",
-	"hover.target": "echo",
+	"signature.target":"float",
+	"hover.target": "float",
 	"svelte.enable-ts-plugin": true,
 	"typescript.preferences.useAliasesForRenames": false
 }
