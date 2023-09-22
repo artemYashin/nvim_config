@@ -48,7 +48,7 @@ All custom keymaps can be found at **init.lua** file.
 
 **SPACE+G+I** - *Go to implementation*
 
-**SPACE+D+F** - *Go to current variable's type definition*
+**SPACE+F+D** - *Go to current variable's type definition*
 ## Tabs:
 **ALT + ,** - *Switch to the previous buffer (file)*
 
