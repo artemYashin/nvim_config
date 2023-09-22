@@ -49,7 +49,8 @@ command("language en")
 --command("CocCommand typescript.preferences.useAliasesForRename")
 
 -- intellisense trigger
-keyset('i', '<c-space>', "coc#refresh()", {silent=true, expr = true})
+keyset("i", "<cr>", [[coc#pum#visible() ? coc#pum#confirm() : "\<C-g>u\<CR>\<c-r>=coc#on_enter()\<CR>"]], {silent=true, noremap=true, expr=true, replace_keycodes=false})
+keyset('i', '<C-s>', "coc#refresh()", {silent=true, expr = true})
 keyset("n", "<leader>ca", "<Plug>(coc-codeaction-cursor)", {silent =true, nowait = true})
 keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent=true})
 keyset("n", "<leader>gf", "<Plug>(coc-references)", {silent = true})
