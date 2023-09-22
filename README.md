@@ -36,30 +36,30 @@ All custom keymaps can be found at **init.lua** file.
 
 # Default keymaps of this configuration:
 ## Code Completions:
-**SHIFT+T** - Shows type of hovered variable/function
+**SHIFT+t** - Shows type of hovered variable/function
 
-**SPACE+C+A** - *Code Actions (as example import component that is not imported)*
+**SPACE+c+a** - *Code Actions (as example import component that is not imported)*
 
-**SPACE+R+N** - *Rename Symbol (variable, function name, interface name, and etc.)*
+**SPACE+r+n** - *Rename Symbol (variable, function name, interface name, and etc.)*
 
-**SPACE+G+F** - *Go to References*
+**SPACE+g+f** - *Go to References*
 
-**SPACE+G+D** - *Go to Definition*
+**SPACE+g+d** - *Go to Definition*
 
-**SPACE+G+I** - *Go to implementation*
+**SPACE+g+i** - *Go to implementation*
 
-**CTRL+S** - *Open code completion suggestion box*
+**CTRL+s** - *Open code completion suggestion box*
 
-**SPACE+F+D** - *Go to current variable's type definition*
+**SPACE+f+d** - *Go to current variable's type definition*
 ## Tabs:
 **ALT + ,** - *Switch to the previous buffer (file)*
 
 **ALT + .** - *Switch to the next buffer (file)*
 
-**ALT + C** - *Close curent buffer (file)*
+**ALT + c** - *Close curent buffer (file)*
 ## File Explorer:
-**SPACE + D** - *Toggle file explorer*
+**SPACE + d** - *Toggle file explorer*
 ## Files Search (telescope)
-**SPACE + FF** - *Open file search*
+**SPACE + f + f** - *Open file search*
 
-**SPACE + FG** - *Live grep*
+**SPACE + f + g** - *Live grep*
