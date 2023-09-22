@@ -82,10 +82,7 @@ return packer.startup(function(use)
 
 	-- File Search (telescope)
 	use({"nvim-telescope/telescope.nvim",
-	requires = { {'nvim-lua/plenary.nvim'} },
-	config=function()
-
-	end
+		requires = { {'nvim-lua/plenary.nvim'} }
 	})
 
 	-- Terminal

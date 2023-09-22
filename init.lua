@@ -52,6 +52,7 @@ keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent=true})
 keyset("n", "<leader>gf", "<Plug>(coc-references)", {silent = true})
 keyset("n", "<leader>gd", "<Plug>(coc-definition)", {silent = true})
 keyset("n", "<leader>gi", "<Plug>(coc-implementation)", {silent = true})
+keyset("n", "<leader>df", "<Plug>(coc-type-definition)", {silent = true})
 -- SETUP:
 -- :CocInstall coc-tsserver coc-json coc-html coc-css @softmotions/coc-svelte
 -- :language en
