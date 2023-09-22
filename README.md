@@ -24,7 +24,7 @@ After successfull updating, you can quit nvim:
     :qa!
 At this moment plugins should be already installed, and we just need to download corresponding language servers, which can be found here:
 
-[https://www.nerdfonts.com/font-downloads](https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions)
+https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions
 
 Example command to install recommended language supports for svelte:
 
