@@ -28,7 +28,7 @@ https://www.nerdfonts.com/font-downloads
 
 Example command to install recommended language supports for svelte:
 
-    :CocInstall coc-tsserver coc-html coc-json coc-css @softmotions/coc-svelte 
+    :CocInstall coc-tsserver coc-html coc-json coc-css coc-pairs @softmotions/coc-svelte 
    **Configuration is done. Restart nvim to ensure that all plugins loaded correctly.**
 
 # Custom keymapping
