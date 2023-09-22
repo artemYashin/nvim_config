@@ -24,11 +24,11 @@ After successfull updating, you can quit nvim:
     :qa!
 At this moment plugins should be already installed, and we just need to download corresponding language servers, which can be found here:
 
-https://www.nerdfonts.com/font-downloads
+https://github.com/neoclide/coc.nvim/wiki/Using-coc-extensions#implemented-coc-extensions
 
 Example command to install recommended language supports for svelte:
 
-    :CocInstall coc-tsserver coc-html coc-json coc-css @softmotions/coc-svelte 
+    :CocInstall coc-tsserver coc-html coc-json coc-css coc-pairs @softmotions/coc-svelte 
    **Configuration is done. Restart nvim to ensure that all plugins loaded correctly.**
 
 # Custom keymapping
@@ -47,6 +47,8 @@ All custom keymaps can be found at **init.lua** file.
 **SPACE+G+D** - *Go to Definition*
 
 **SPACE+G+I** - *Go to implementation*
+
+**SPACE+F+D** - *Go to current variable's type definition*
 ## Tabs:
 **ALT + ,** - *Switch to the previous buffer (file)*
 
@@ -55,3 +57,7 @@ All custom keymaps can be found at **init.lua** file.
 **ALT + C** - *Close curent buffer (file)*
 ## File Explorer:
 **SPACE + D** - *Toggle file explorer*
+## Files Search (telescope)
+**SPACE + FF** - *Open file search*
+
+**SPACE + FG** - *Live grep*
