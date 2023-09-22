@@ -47,6 +47,8 @@ All custom keymaps can be found at **init.lua** file.
 **SPACE+G+D** - *Go to Definition*
 
 **SPACE+G+I** - *Go to implementation*
+
+**SPACE+D+F** - *Go to current variable's type definition*
 ## Tabs:
 **ALT + ,** - *Switch to the previous buffer (file)*
 
@@ -55,3 +57,7 @@ All custom keymaps can be found at **init.lua** file.
 **ALT + C** - *Close curent buffer (file)*
 ## File Explorer:
 **SPACE + D** - *Toggle file explorer*
+## Files Search (telescope)
+**SPACE + FF** - *Open file search*
+
+**SPACE + FG** - *Live grep*
