@@ -55,7 +55,7 @@ keyset("n", "<leader>rn", "<Plug>(coc-rename)", {silent=true})
 keyset("n", "<leader>gf", "<Plug>(coc-references)", {silent = true})
 keyset("n", "<leader>gd", "<Plug>(coc-definition)", {silent = true})
 keyset("n", "<leader>gi", "<Plug>(coc-implementation)", {silent = true})
-keyset("n", "<leader>df", "<Plug>(coc-type-definition)", {silent = true})
+keyset("n", "<leader>fd", "<Plug>(coc-type-definition)", {silent = true})
 
 -- telescope hotkey
 keyset("n", "<leader>ff",builtin.find_files, {})
