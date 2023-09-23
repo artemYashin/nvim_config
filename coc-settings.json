@@ -1,6 +1,14 @@
-{
+{ 
 	"signature.target":"float",
 	"hover.target": "float",
+	"pairs.enableCharacters": [
+		"(",
+		"[",
+		"{",
+		"'",
+		"\"",
+		"`"
+	],
 	"svelte.enable-ts-plugin": true,
 	"typescript.preferences.useAliasesForRenames": false
 }
