@@ -129,8 +129,6 @@ command("colorscheme catppuccin-macchiato")
 command("set shiftwidth=4")
 -- Tab size
 command("set tabstop=4")
--- Language
-command("language en")
 
 local map = vim.api.nvim_set_keymap
 
@@ -174,5 +172,6 @@ keyset("n", "T", '<CMD>lua _G.show_type()<CR>', {silent = true})
 
 -- SETUP:
 -- :CocInstall coc-tsserver coc-json coc-html coc-css coc-pairs @softmotions/coc-svelte
+-- :CocIntall es-lint
 -- :language en
 -- need to install "watchman" for Symbol rename working in all files in project

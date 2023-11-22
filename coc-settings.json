@@ -10,5 +10,6 @@
 		"`"
 	],
 	"svelte.enable-ts-plugin": true,
-	"typescript.preferences.useAliasesForRenames": false
+	"typescript.preferences.useAliasesForRenames": false,
+	"eslint.autoFixOnSave": true
 }
